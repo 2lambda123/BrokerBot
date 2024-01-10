@@ -3,7 +3,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import sys
+from selenium.webdriver.common.alert import Alert
+from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.alert import Alert
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.alert import Alert
 
 print('IMPORTANT: Make sure you have Chromedriver.exe installed to match the same version as chromium!')
